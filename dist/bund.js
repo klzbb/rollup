@@ -1,32 +1,27 @@
-(function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-  typeof define === 'function' && define.amd ? define(['exports'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.vue = {}));
-}(this, (function (exports) { 'use strict';
+'use strict';
 
-  const storeUtil = () => {
-    console.log("kkk");
-    return "klz"
-  };
+Object.defineProperty(exports, '__esModule', { value: true });
 
-  const isString = (val) => {
-    console.log("kkk");
-    return typeof val === 'string'
-  };
+const storeUtil = () => {
+  console.log("kkk");
+  return "klz"
+};
 
-  const isObj = (val) => {
-    return typeof val === 'string'
-  };
+const isString = (val) => {
+  console.log("kkk");
+  return typeof val === 'string'
+};
 
-  function compileToFunction (template){
-    console.log("kkkk");
-  }
+const isObj = (val) => {
+  return typeof val === 'string'
+};
 
-  exports.compiler = compileToFunction;
-  exports.isObj = isObj;
-  exports.isString = isString;
-  exports.storeUtil = storeUtil;
+function compileToFunction (template){
+  console.log("kkkk");
+  console.log($);
+}
 
-  Object.defineProperty(exports, '__esModule', { value: true });
-
-})));
+exports.compiler = compileToFunction;
+exports.isObj = isObj;
+exports.isString = isString;
+exports.storeUtil = storeUtil;

@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "node scripts/dev.js",
-    "rollup": "rollup -c rollup.config.js --watch"
+    "rol": "rollup -c -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "chalk": "^4.1.0",
-    "execa": "^5.0.0",
+    "execa": "^4.0.2",
     "rollup": "^2.34.2"
   }
 }
