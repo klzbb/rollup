@@ -15,7 +15,7 @@
     "removeComments": false,
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
-    "types": ["jest", "puppeteer", "node"],
+    // "types": ["jest", "puppeteer", "node"],
     "rootDir": ".",
     "paths": {
       "@vue/*": ["packages/*/src"],
@@ -27,6 +27,6 @@
     "packages/*/src",
     "packages/runtime-dom/types/jsx.d.ts",
     "packages/*/__tests__",
-    "test-dts"
+    "test-dts", "packages/compiler-core/index.js"
   ]
 }
