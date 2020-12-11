@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 1,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": null
+}
