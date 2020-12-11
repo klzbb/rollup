@@ -10,6 +10,7 @@ module.exports = {
     __HH: 'writable',
   },
   rules: {
+    ' no-undef': 'off',
     'no-restricted-syntax': 'off',
     // 禁止使用 var
     'no-var': 'error',
