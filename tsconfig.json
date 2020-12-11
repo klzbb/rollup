@@ -27,6 +27,7 @@
     "packages/*/src",
     "packages/runtime-dom/types/jsx.d.ts",
     "packages/*/__tests__",
-    "test-dts", "packages/compiler-core/index.js"
+    "test-dts",
+    "packages/compiler-core/index.js"
   ]
 }
